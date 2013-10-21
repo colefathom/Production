@@ -27,19 +27,29 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
+#gem 'rmagick', '~> 2.13.2', :platforms => :ruby
+#gem 'rmagick', '=2.13.2.mswin32', :platforms => :mswin
+#gem 'rmagick', '2.13.2'
+gem "prawn-labels"
+
+#This is to be used with the barcode gem
+#gem 'imagemagick-identify'
+
+#This is needed for multi_encoder gem
+#gem "qrencoder", "~> 1.4.1"
+
+#gem "gbarcode", "~> 0.98.16"
+
+#barcode and qr code encoder, qr portion not installed, check for related errors
+#gem 'multi_encoder'
+#gem "barcodes", "~> 0.0.11"
+
+
+#this one finally works as a barcode generator
+gem "rghost_barcode", "~> 0.9"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]

@@ -32,7 +32,7 @@ gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 #gem 'rmagick', '=2.13.2.mswin32', :platforms => :mswin
 #gem 'rmagick', '2.13.2'
 gem "prawn-labels"
-
+gem 'bootstrap-datetimepicker-rails'
 
 #This is to be used with the barcode gem
 #gem 'imagemagick-identify'

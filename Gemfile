@@ -33,6 +33,7 @@ gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 #gem 'rmagick', '2.13.2'
 gem "prawn-labels"
 
+
 #This is to be used with the barcode gem
 #gem 'imagemagick-identify'
 
@@ -47,7 +48,7 @@ gem "prawn-labels"
 
 
 #this one finally works as a barcode generator
-gem "rghost_barcode", "~> 0.9"
+#gem "rghost_barcode", "~> 0.9"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
